@@ -1,19 +1,27 @@
 <!doctype html>
-<html lang="ar" dir="rtl">
+<style>
+   
+   
+
+<html lang="en">
   <head>
+     <style>
+
+          
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="Kwenzokuhle" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>قالب لوحة القيادة · Bootstrap v5.1</title>
+    <title>Cheatsheet · Bootstrap v5.1</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard-rtl/">
+    <link rel="canonical" href="https://msingasettlement.com/docs/5.1/examples/cheatsheet/">
+    </style>
 
     
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -33,253 +41,1002 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="../dashboard/dashboard.rtl.css" rel="stylesheet">
+    <link href="cheatsheet.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="bg-light">
     
-<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">اسم الشركة</a>
-  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="عرض/إخفاء لوحة التنقل">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <input class="form-control form-control-dark w-100" type="text" placeholder="بحث" aria-label="بحث">
-  <div class="navbar-nav">
-    <div class="nav-item text-nowrap">
-      <a class="nav-link px-3" href="#">تسجيل الخروج</a>
-    </div>
+<header class="bd-header bg-dark py-3 d-flex align-items-stretch border-bottom border-dark">
+  <div class="container-fluid d-flex align-items-center">
+    <h1 class="d-flex align-items-center fs-4 text-white mb-0">
+      Msinga Settlement
+    </h1>
+    <a href="../examples/cheatsheet-rtl/" class="ms-auto link-light" hreflang="ar">Makhunga</a>
   </div>
 </header>
-
-<div class="container-fluid">
-  <div class="row">
-    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-      <div class="position-sticky pt-3">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              <span data-feather="home"></span>
-              لوحة القيادة
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file"></span>
-              الطلبات
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="shopping-cart"></span>
-              المنتجات
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="users"></span>
-              الزبائن
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="bar-chart-2"></span>
-              التقارير
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="layers"></span>
-              التكاملات
-            </a>
-          </li>
+<aside class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2">
+  <h2 class="h6 pt-4 pb-3 mb-4 border-bottom"><ul>On this page we are looking forward....</ul></h2>
+  <nav class="small" id="toc">
+    <ul class="list-unstyled">
+      <li class="my-2">
+        <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#contents-collapse" aria-controls="contents-collapse">Contents</button>
+        <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+          <li><a class="d-inline-flex align-items-center rounded" href="#typography"> Purpose for this Website</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#images"> Healthcare System & Investigation</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#tables">Education : Senior & FET High Schools</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#figures"> Higher  Institutions for receiving 2023Applications</a></li>
+           <li><a class="d-inline-flex align-items-center rounded" href="#figures">Birkbeck Dental Service  </a></li>
+            <li><a class="d-inline-flex align-items-center rounded" href="#figures">Msinga Library </a></li>
+  
         </ul>
-
-        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>التقارير المحفوظة</span>
-          <a class="link-secondary" href="#" aria-label="إضافة تقرير جديد">
-            <span data-feather="plus-circle"></span>
-          </a>
-        </h6>
-        <ul class="nav flex-column mb-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              الشهر الحالي
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              الربع الأخير
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              التفاعل الإجتماعي
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              مبيعات نهاية العام
-            </a>
-          </li>
+      </li>
+      <li class="my-2">
+        <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse" aria-controls="forms-collapse">Create Your Account</button>
+        <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+          <li><a class="d-inline-flex align-items-center rounded" href="#overview">New Account</a></li>
+          <li></li>
         </ul>
-      </div>
-    </nav>
+      </li>
+      <li class="my-2">
+        <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse" aria-controls="components-collapse">Other Components</button>
+        <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+          <li><a class="d-inline-flex align-items-center rounded" href="#alerts"> Digital stores</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#buttons">Local Traditional Doctors</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#carousel">Junior Entraprenuers</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#pagination">Construction stores</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#scrollspy">Women :HIV prevention</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</aside>
+<div class="bd-cheatsheet container-fluid bg-body">
+  <section id="content">
+    <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Contents</h2>
+</div>
+        </div>
+    </article>
 
-    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">لوحة القيادة</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
-          <div class="btn-group me-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary">مشاركة</button>
-            <button type="button" class="btn btn-sm btn-outline-secondary">تصدير</button>
+ <article class="my-3" id="carousel">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>
+            <weak> Department of Health</weak></h3>
+   <div style="background:transparent; border-top:3px solid #005546; width:100%;"></div>
+        <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-            <span data-feather="calendar"></span>
-            هذا الأسبوع
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+
+              <div class="carousel-caption d-none d-md-block">
+
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
           </button>
         </div>
+    </article>
+    <article class="my-3" id="typography">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h5><strong><ul>Purpose for this Website</ul></strong><h5>
+        <div class="bd-example">
+        <ul><p class="lead">
+          Using electronic methods, such as smartphones, email, text message, may help improve communication between patients and doctor. We survey 105 participants with type 2 diabetes and most participants were interested in using electronic methods to communicate more with their doctors 
+        </p></ul>
+        <ul><p>Msinga Settlement has catchment of more than 184 200 residents in Approximately 41,800 households 
+            
+        </p></ul>
+        </div>
+
+   <ul><p class="description">
+      <div class="spinner-grow text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+          <span class="visually-hidden">Loading...</span></ul>
+        </div>
+       <article class="my-3" id="spinners">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+       <ul><ul><ul><ul><ul><h3><strong> <ul><span class="badge rounded-pill bg-primary"><h3>Department of Health :New Investigation</h3></span></ul></strong></h3></ul></ul></ul></ul></ul>
+ <div style="background:transparent; border-top:1px solid #005546; width:100%;"></div>
+<ul><img src="Screenshot_20220406_034550.jpg"alt=" Contact your Doctor today"></ul>
+    </article>
+     <div class="bd-example">
+        <ul><blockquote class="blockquote">
+          <p><b> Plain Language Summary</b>     <footer class="blockquote-footer">Hospital Church of Scotland <cite title="Source Title">Source Title</cite></footer>
+        </blockquote> </ul>
+        </div></p>
+        
+
+        <div class="bd-example">
+        <ul class="list-unstyled">
+          
+          <ul><li>Many patients are not satisfied with how doctors communicate with them.</li>
+          <li>Patients want to be more involved in planning their care and making decisions about their treatment </li>
+          <li>It is  often difficult for patients to understand all the instructions from  their doctors, especially when they receive too much information at on time.  </li>
+          
+           
+          <li> This is especially true for patients with chronic diseases such as diabetes where treatment is complicated and lifelong. </li>
+         
+          
+          <li>Using electronic methods such as smartphones, email, text message may help improve communication between patients and doctor. We survey 105 participants with type 2 diabetes and most participants were interested in using electronic methods to communicate  more with their doctors between visits </li>.</u></div>
+          <br></br>
+     <ul><h5><i>KEY ACHIEVEMENTS</i></h5>
+     <p>Participants showed interest in using smartphone for medication reminders and scheduling doctor visits. Patients need support and encouragement from their doctors, especially when dealing with lifelong complicated treatments<br></br>
+     Our study shows that patients with diabetes 
+     </p>
+     
+          
+          <div>
+          </li>
+            <ul><strong> <h3>How to register for Healthcare in South Africa as Expat :</h3></strong>
+            <li>Registering for Healthcare in South Africa involves less paper work than in many western countries  </li>
+            <li>If you want to access private Healthcare services or are not entitled to the state Healthcare system. </li>
+            <li> You can register with a private doctor and use private facilities, such as Hospitals and Specialist services if you can show proof of Private health insurance coverage.  </li> 
+            
+          <li>By filling out a Doctor's form and providing your addres, personal ID such as passport and prove of South Africa residency.</li>
+        </ul>
+        </div>
+        </article>
+  <ul><article class="my-3" id="overview">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>Sign In</h3>
+        <a class="d-flex align-items-center" href="../forms/overview/">Documentation</a>
       </div>
 
-      <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+      <div>
+        <div class="bd-example">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <fieldset class="mb-3">
+            <legend>User Gender</legend>
+            <div class="form-check">
+              <input type="radio" name="ras" class="form-check-input" id="exampleRadio1">
+              <label class="form-check-label" for="exampleRadio1">Male</label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio2">
+              <label class="form-check-label" for="exampleRadio2">Female</label>
+            </div>
+          </fieldset>
+          <div class="mb-3">
+            <label class="form-label" for="customFile">Upload</label>
+            <input type="file" class="form-control" id="customFile">
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+          </div>
+          <div class="mb-3">
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+   
+      </div>
+    </article></ul>
+    <article class="my-3" id="tables">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+    <title>Mohamed Bedor</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  </head>
+  <body>
+   <!--Titles-->
+   <h1 align='center'></h1>
+  
+   
+   <!--Main SVG-->
+   <svg width="100%" height="500">     
+ 
 
-      <h2>عنوان القسم</h2>
-      <div class="table-responsive">
-        <table class="table table-striped table-sm">
+ 
+      <!--Road the black background-->
+      <rect x="0" y="350" width="100%" height="100" fill="black" rx="0" ry="0"/>
+ 
+      <!--Road the white parts-->    
+      <rect x="0" y="395" width="60" height="10" fill="white" rx="0" ry="0">
+          <animate attributeName="x" from="0" to="960" dur="0.4s" fill="freeze" repeatCount="indefinite"/>
+      </rect>
+      
+      <!--The bus main body-->
+      <rect x="30" y="280" width="300" height="110" fill="#febc10" rx="5" ry="5" stroke="black" stroke-width="1"/>
+      
+      <!--The bus wheels-->
+      <circle r="15px" fill="#726d82"  cx="90" cy="390"  stroke="#36353a" stroke-width="10">
+          <animate attributeName="cy" from="389" to="391" dur="0.05s" fill="freeze" repeatCount="indefinite"/>
+      </circle>    
+      <circle r="15px" fill="#726d82"  cx="280" cy="390"  stroke="#36353a" stroke-width="10">
+          <animate attributeName="cy" from="391" to="389" dur="0.05s" fill="freeze" repeatCount="indefinite"/>
+      </circle> 
+
+      <!--The bus the glass of the bus-->
+      <rect x="100" y="290" width="40" height="40" fill="#c2f6ff" rx="5" ry="5" stroke="#726d82" stroke-width="2"/>
+      <rect x="145" y="290" width="40" height="40" fill="#c2f6ff" rx="5" ry="5" stroke="#726d82" stroke-width="2"/>
+      <rect x="190" y="290" width="40" height="40" fill="#c2f6ff" rx="5" ry="5" stroke="#726d82" stroke-width="2"/>
+      <rect x="235" y="290" width="40" height="40" fill="#c2f6ff" rx="5" ry="5" stroke="#726d82" stroke-width="2"/>
+      <rect x="280" y="290" width="40" height="40" fill="#c2f6ff" rx="5" ry="5" stroke="#726d82" stroke-width="2"/>
+
+      
+      <rect x="40" y="290" width="50" height="70" fill="#c2f6ff" rx="5" ry="5" stroke="#726d82" stroke-width="2"/>
+      <rect x="40" y="365" width="25" height="20" fill="#c2f6ff" rx="3" ry="3" stroke="#726d82" stroke-width="2"/>
+      <ellipse cx="80" cy="367" rx="5" ry="2" fill="#36353a" stroke="#726d82" stroke-width="1" /> 
+       
+       <!--The bus accesories-->
+       <rect x="100" y="340" width="220" height="4" fill="#36353a" rx="2" ry="2">
+           <animate attributeName="y" from="339.5" to="340.5" dur="0.05s" fill="remove" repeatCount="indefinite"/>
+       </rect>
+       <rect x="100" y="360" width="220" height="4" fill="#36353a" rx="2" ry="2">
+           <animate attributeName="y" from="359.5" to="360.5" dur="0.05s" fill="remove" repeatCount="indefinite"/>
+       </rect>
+       <text x="160" y="357" fill="#36353a">MSINGA SCHOOL BUS
+           <animate attributeName="y" from="356.5" to="357.5" dur="0.05s" fill="remove" repeatCount="indefinite"/>
+       </text>
+       
+       <!--The bus side lights-->
+       <rect x="31" y="374" width="7" height="15" fill="#e83232" rx="3" ry="3" />
+       <rect x="31" y="374" width="7" height="15" fill="#e83232" rx="2" ry="2" />
+       <rect x="314" y="379" width="15" height="10" fill="#e83232" rx="2" ry="2" />
+    </svg>
+  </body>
+</html>
+  <ul><span class="badge rounded-pill bg-primary"><h3>Department of Education : Senior & FET Schools</h3></span></ul>
+        <div class="bd-example">
+        <ul><table class="table table-striped">
           <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">عنوان</th>
-              <th scope="col">عنوان</th>
-              <th scope="col">عنوان</th>
-              <th scope="col">عنوان</th>
-            </tr>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Msinga High Schools</th>
+            <th scope="col">Region(Area) </th>
+            <th scope="col">Principal</th>
+            <th scope="col"> EMIS number . <th>
+          </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1,001</td>
-              <td>بيانات</td>
-              <td>عشوائية</td>
-              <td>تثري</td>
-              <td>الجدول</td>
+          <tr>
+            <th scope="row">1</th>
+            <td>Bhekabantu High School</td>
+            <td>Cwaka</td>
+            <td> Mr ks Makhunga-(bhekabantu@outlook.com </td>
+            <td>5004 4670 1</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td> Mabaso High Schodd </td>
+            <td> Sdakeni</td>
+            <td>Mr xn Mchunu - (mabasohigh@gmail.com) . </td>
+            <td>5004 1502 9</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Mawele High School</td>
+            <td> Othame</td>
+            <td> Mr wz Mbomvu -  (sibusisomagubane77@gmail.com) </td>
+            <td>5002 0283 4</td>
             </tr>
+            
             <tr>
-              <td>1,002</td>
-              <td>تثري</td>
-              <td>مبهة</td>
-              <td>تصميم</td>
-              <td>تنسيق</td>
-            </tr>
+            <th scope="row">4</th>
+            <td>Msinga High School</td>
+            <td>Tugela Ferry</td>
+            <td>Prof dd Nzima- (msinga ighschool@gmail.com) </td>
+            <td>5002 5755 8</td>
             <tr>
-              <td>1,003</td>
-              <td>عشوائية</td>
-              <td>غنية</td>
-              <td>قيمة</td>
-              <td>مفيدة</td>
-            </tr>
             <tr>
-              <td>1,003</td>
-              <td>معلومات</td>
-              <td>تثري</td>
-              <td>توضيحية</td>
-              <td>عشوائية</td>
-            </tr>
+            <th scope="row">4</th>
+            <td>Sakhiseni High School</td>
+            <td>Bhubesini</td>
+            <td> Mr dd Sbisi- (sakhisenihighschool@gmail.com) </td>
+            <td>5002 5755 7</td>
             <tr>
-              <td>1,004</td>
-              <td>الجدول</td>
-              <td>بيانات</td>
-              <td>تنسيق</td>
-              <td>قيمة</td>
-            </tr>
-            <tr>
-              <td>1,005</td>
-              <td>قيمة</td>
-              <td>مبهة</td>
-              <td>الجدول</td>
-              <td>تثري</td>
-            </tr>
-            <tr>
-              <td>1,006</td>
-              <td>قيمة</td>
-              <td>توضيحية</td>
-              <td>غنية</td>
-              <td>عشوائية</td>
-            </tr>
-            <tr>
-              <td>1,007</td>
-              <td>تثري</td>
-              <td>مفيدة</td>
-              <td>معلومات</td>
-              <td>مبهة</td>
-            </tr>
-            <tr>
-              <td>1,008</td>
-              <td>بيانات</td>
-              <td>عشوائية</td>
-              <td>تثري</td>
-              <td>الجدول</td>
-            </tr>
-            <tr>
-              <td>1,009</td>
-              <td>تثري</td>
-              <td>مبهة</td>
-              <td>تصميم</td>
-              <td>تنسيق</td>
-            </tr>
-            <tr>
-              <td>1,010</td>
-              <td>عشوائية</td>
-              <td>غنية</td>
-              <td>قيمة</td>
-              <td>مفيدة</td>
-            </tr>
-            <tr>
-              <td>1,011</td>
-              <td>معلومات</td>
-              <td>تثري</td>
-              <td>توضيحية</td>
-              <td>عشوائية</td>
-            </tr>
-            <tr>
-              <td>1,012</td>
-              <td>الجدول</td>
-              <td>تثري</td>
-              <td>تنسيق</td>
-              <td>قيمة</td>
-            </tr>
-            <tr>
-              <td>1,013</td>
-              <td>قيمة</td>
-              <td>مبهة</td>
-              <td>الجدول</td>
-              <td>تصميم</td>
-            </tr>
-            <tr>
-              <td>1,014</td>
-              <td>قيمة</td>
-              <td>توضيحية</td>
-              <td>غنية</td>
-              <td>عشوائية</td>
-            </tr>
-            <tr>
-              <td>1,015</td>
-              <td>بيانات</td>
-              <td>مفيدة</td>
-              <td>معلومات</td>
-              <td>الجدول</td>
-            </tr>
+           <th scope="row"></th>
+        </table></ul>
+        </div>
+        <ul><div class="bd-example">
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <th scope="col"> EMIS number
+            <th scope="col"> Registration </th>
+            <th scope="col">No fee</th>
+            <th scope="col"> Locality </th>
+            <th scope="col">Boarding </th>
+            <th scope="col"> No. Learners </th>
+            <th scope="col">2021%</th>
+
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row"> 5004 4670 1</th>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>Rural </td>
+            <td>No</td>
+            <td>867 </td>
+            <td>53%</td>
+          </tr>
+          
+          <tr class="table-primary">
+            <th scope="row">5004 1502 9</th>
+            <td>Free</td>
+            
+            <td>Yes</td>
+            <td>Rural </td>
+            <td>No</td>
+            <td>983 </td>
+            <td>78%</td>
+          </tr>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">5002 0283 4</th>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>Rural </td>
+            <td>No</td>
+            <td>635</td>
+            <td>62%</td>
+         
+          </tr>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">5002 5755 7</th>
+            <td> Free</td>
+            <td>Yes</td>
+          
+            <td>Rural </td>
+            <td>No</td>
+            <td>1422 </td>
+            <td>92%</td>
+          </tr>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">Danger</th>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">Warning</th>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">Info</th>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">Light</th>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+          <tr class="table-dark">
+            <th scope="row">Dark</th>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
           </tbody>
         </table>
+
+        <div class="bd-example">
+        <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">High Schools EMIS </th>
+            <th scope="col"> Full %</th>
+            <th scope="col">2018</th>
+            <th scope="col">2019</th>
+            <th scope="col">2020</th>
+            <th scope="col" >2021</th>
+            <th scope="col">2022 </th>
+            <th scope="col">2023</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">5002 0283 4 </th>
+            <td>100% </td>
+            <td>.<font color="red" size="4">- 0.45</td>
+            <td><font color="green" size="4">+0.14</td>
+             <td>100% </td>
+            <td>.<font color="red" size="4">- 0.45</td>
+            <td><font color="green" size="4">+0.14</td>
+           
+            
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+                      <td>.<font color="red" size="4">- 0.45</td>
+            <td><font color="green" size="4">+0.14</td>
+             <td>100% </td>
+            <td>.<font color="red" size="4">- 0.45</td>
+            <td><font color="green" size="4">+0.14</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+                     <td>.<font color="red" size="4">- 0.45</td>
+            <td><font color="green" size="4">+0.14</td>
+             <td>100% </td>
+            <td>.<font color="red" size="4">- 0.45</td>
+            <td><font color="green" size="4">+0.14</td>
+          </tr>
+          </tbody>
+        </table>
+        </div>
+   <ul><h5>2022 Academic year,for Matriculant   </h5></ul>
+         <ul><p><h5><strong>Life Sciences </strong></h5></p></ul>
+        <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col"> Paper 1</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><strong>Term 1 :</strong></td>
+            <td> <strong>Percent %</strong></td>
+            <td><strong> Marks</strong></td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>Reproduction in Vertebrate </td>
+            <td>5%</td>
+            <td>8</td>
+            <tr>
+             <th scope="row"></th>
+            <td> Human Reproduction </td>
+            <td> 27%</td>
+            <td>41</td>
+            <tr>
+            <th scope="row">2</th>
+            <td><strong>Term 2</strong> </td>
+            <td></td>
+            <td></td>
+            <tr>
+             <th scope="row"></th>
+            <td> Responding to the Environment(human Resource system) </td>
+            <td> 36%</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><strong>Term 3</strong> </td>
+            <td></td>
+            <td></td>
+            <tr>
+             <th scope="row"></th>
+            <td> Responding to the Environment(plants) </td>
+            <td> 9%</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td><strong> Term 4 (2&3)</strong> </td>
+            <td></td>
+            <td></td>
+            <tr>
+             <th scope="row"></th>
+            <td>Endocrine and Homeostasis (human) </td>
+            <td> 23%</td>
+            <td>34</td>
+            </tr>
+            <tr>
+            <th scope="row"></th>
+            <td><b>TOTAL </b></td>
+            <td><b>100</b></td>
+            <td><b>100</b></td>
+          </tr>
+          </tbody>
+          <di
+          </div>
+         </div>
+       </div>
       </div>
-    </main>
+    </div>
+        </table>
+   <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col"> Paper 2</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><strong>Term 1 :</strong></td>
+            <td> <strong>Percent %</strong></td>
+            <td><strong> Marks</strong></td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td> DNA: Code of Life </td>
+            <td> 18%</td>
+            <td> 27</td>
+            <tr></tr>
+            </tr>
+            <tr>
+             <th scope="row"></th>
+            <td> Meiosis</td>
+            <td> 14%</td>
+            <td> 21</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><strong>Term 1&2</strong> </td>
+            <td></td>
+            <td></td>
+            <tr>
+             <th scope="row"></th>
+            <td>Genetics </td>
+            <td> 32%</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td><strong> Term  (2&3)</strong> </td>
+            <td></td>
+            <td></td>
+            <tr>
+             <th scope="row"></th>
+          Evolution</td>
+            <td> Evolution </td>
+            <td>  36%</td>
+            <td>54</td>
+            </tr>
+            <tr>
+            <th scope="row"></th>
+            <td><b>TOTAL </b></td>
+            <td><b>100</b></td>
+            <td><b>100</b></td>
+          </tr>
+          </tbody>
+        </table>
+
+        </div></ul>
+<Title <div class="bd-example">
+        
+        </div>
+      </div>
+    </article>
+    <article class="my-3" id="figures">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>Figures</h3>
+        <a class="d-flex align-items-center" href="../content/figures/">Documentation</a>
+      </div>
+
+      <div>
+        <div class="bd-example">
+        <figure class="figure">
+          <svg class="bd-placeholder-img figure-img img-fluid rounded" width="400" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 400x300" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">400x300</text></svg>
+
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section id="forms">
+    <ul><h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Higher Institutions : Applications for 2023 </h2>
+   <div style="background:transparent; border-top:10px solid #005546; width:100%;"></div></u>
+<ul><p><h3>Table showing South African Higher  Institutions and them contacts </h3></p></ul>
+        <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Institutions</th>
+            <th scope="col">Tell Numbers</th>
+            <th scope="col">Website</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td> Cape Penisula University of Technology </td>
+            <td>Otto</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Central University of Technology, Free State  </td>
+            <td>Thornton</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Durban University of Technology </td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mangosuthu University of Technology </td>
+            <td>Otto</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Nelson Mandela Metropolitan University </td>
+            <td>Thornton</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">North West University  </td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>University of </td>
+            <td>Otto</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Rhodes University </td>
+            <td>Thornton</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Tshwane University of Technology </td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>University of Cape Town </td>
+            <td>Otto</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>University ofKwaZulu-Natal  </td>
+            <td>Thornton</td>
+            <td>www.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">University of Fort Hare</td>
+            <td>@twitter</td>
+          </tr>
+          </tbody>
+        </table>
+
+</html>
+<article class="my-3" id="toasts">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>Upcoming Events</h3>
+      </div>
+
+      <div>
+        <div class="bd-example bg-dark p-5 align-items-center">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"/></svg>
+
+            <strong class="me-auto">Weekly Report </strong>
+            <small class="text-muted"> Just now 1</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            No registration still open for 2022 academic year in any Institution .
+          </div>
+        </div>
+        </div>
+      </div>
+    </article>
+ <div>
+  </style>
+  </section>
+
+  <section id="components">
+    <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3"></h2>
+
+    <article class="my-3" id="accordion">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+  <ul><span class="badge rounded-pill bg-success"><h3>N. B /Matric learners /Apply Today </h3></span></ul>
+        
+      </div>
+      <ul><h5><b>Steps to be followed by a high school  learner in order to be a University student   </b></h5></ul>
+      <p>   </p>
+
+      <div>
+        <div class="bd-example">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             <ul><h3> CAO Application</h3></ul>
+              </button>
+            </h4>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                   <div> <li>
+                <strong>What is TB disease? </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS
+                     </li>
+                
+                    
+                </div>
+                          <li>
+                <strong>Who is at risk for TB? </strong>transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just
+                </li>
+                
+                <div> <li><strong>What if I have a positive test for TB infectio?</strong> bout any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </li>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  
+               <h6><ul><h3> NSFAS Application </i></h3></ul></h6>
+              </button>
+            </h4>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample"
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               <ul><h3> Bursaries Available for 2022-2023</h3></ul>
+              </button>
+            </h4>
+     <ul><ul><span class="badge rounded-pill bg-info text-dark"><h3>Remember:Requirements for a Certificate Pass </h3></span></ul></ul>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample"
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </article>
+
+ <form onsubmit="return false;">
+  Email: <input type="email" title="Enter valid E-mail">
+  <input type="submit">
+ </form>
+ <article class="my-3" id="scrollspy">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3> Adults Women</h3>
+        <a class="d-flex align-items-center" href="../components/scrollspy/">Documentation</a>
+      </div>
+
+      <div>
+        <div class="bd-example">
+          <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#">2022 HIV Prevention</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyHeading1">First</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h4 id="scrollspyHeading1">First heading</h4>
+            <p>South African women who are at risk of HIV infection will now have more options  for protecting themselves against infection  after the approval of a vaginal ring by the country’s regulator.
+
+Late last week the South African Health Products Regulatory Authority (SAHPRA) okayed the use of the monthly dapivirine vaginal ring by adult women — a move which has been described by local HIV experts as a “game changer in HIV prevention”.
+
+SA is the first country to approve the antiretroviral ring that was successfully tested in six African countries  as a pre-exposure prophylaxis (PrEP).
+
+The ring's developers, the International Partnership for Microbicides (IPM), said the first approval of the silicone ring “marks a major milestone that brings the first long-acting and woman-controlled product another step closer to reaching women”..</p>
+            <h4 id="scrollspyHeading2">Second heading</h4>
+            <p>The ring releases the antiretroviral drug dapivirine for a month and reduces HIV infection by 35%. Its safety has been impressive in all clinical trials to date. In 2020 the ring received the thumbs-up from  influential regulatory body  the European Medicines Agency. The World Health Organisation (WHO) also gave it a seal of approval by adding it to its list of pre-qualified medicines.
+
+Dr Zeda Rosenberg, IPM’s founder and CEO, said: “This approval is a positive step towards offering women more prevention options they can use to control their health on their own terms.
+
+“We look forward to collaborating with the South African government and partners to incorporate the monthly ring into the health system, and into women’s lives in South Africa".</p>
+            <h4 id="scrollspyHeading3">Third heading</h4>
+            <p>HIV experts argue that expanding women’s HIV prevention choices is critical to controlling the epidemic, and ensuring their sexual and reproductive health and rights.
+
+Dr Zuki Pinini, the health department’s acting deputy director-general for HIV/Aids, TB, maternal and child health, said the new ring, which was tested in SA, Kenya, Malawi, Tanzania, Uganda and Zimbabwe, among other nations, could help fill a gap by offering women a long-acting HIV prevention product that “they can control and use discreetly to reduce the risk of HIV transmission”.
+
+“It will provide an important option for women who cannot or choose not to use higher efficacy products such as daily oral PrEP.”
+
+Women insert the product themselves and replace it every month. Made of flexible silicone, the ring slowly releases the antiretroviral (ARV) drug dapivirine directly in the vagina at the site of potential infection, with minimal exposure elsewhere in the body.
+
+Nandi Luthuli, an SA-based regional stakeholder engagement manager for HIV advocacy group AVAC, said more choices for women meant more HIV infections will be averted and “will help South Africa control the HIV epidemic”.
+
+“We know that the most effective intervention is the one someone picks for themselves among an array of effective choices.”</p>
+            <h4 id="scrollspyHeading4">Fourth heading</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <
+    <article class="my-3" id="toasts">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>Upcoming Events</h3>
+      </div>
+
+      <div>
+        <div class="bd-example bg-dark p-5 align-items-center">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"/></svg>
+
+            <strong class="me-auto">Weekly Report </strong>
+            <small class="text-muted"> Just now 1</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            No registration still open for 2022 academic year in any Institution .
+          </div>
+        </div>
+        </div>
+      </div>
+    </article>
+    <article class="mt-3 mb-5 pb-5" id="tooltips">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>Tooltips</h3>
+        <a class="d-flex align-items-center" href="../components/tooltips/">Documentation</a>
+      </div>
+
+      <div>
+        <div class="bd-example tooltip-demo">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">Tooltip on top</button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on end">Tooltip on end</button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on start">Tooltip on start</button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">Tooltip with HTML</button>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+
+<div class="modal fade" id="exampleModalDefault" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLiveLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLiveLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>I will not close if you click outside me. Don't even try to press escape key.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalCenteredScrollable" tabindex="-1" aria-labelledby="exampleModalCenteredScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenteredScrollableTitle">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>This content should appear at the bottom after you scroll.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalFullscreen" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title h4" id="exampleModalFullscreenLabel">Full screen modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
 </div>
 
-
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
+      <script src="cheatsheet.js"></script>
   </body>
 </html>
